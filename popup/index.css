@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    width: 400px;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .tabs {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .tabs button {
+    background-color: inherit;
+    flex: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    transition: 0.3s;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .tabs button:hover {
+    background-color: #575757;
+  }
+  
+  .tabs button.active {
+    background-color: #575757;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .tabcontent button,
+  .tabcontent input,
+  .tabcontent textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .tabcontent input,
+  .tabcontent textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .tabcontent button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .tabcontent button:hover {
+    background-color: #575757;
+  }
+  
